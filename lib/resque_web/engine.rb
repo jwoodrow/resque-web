@@ -8,7 +8,6 @@ module ResqueWeb
 
     initializer "resque_web.assets.precompile" do |app|
       app.config.assets.precompile += %w(resque_web/*.png)
-      app.config.assets.precompile += %w(resque_web/application.css resque_web/application.js)
     end
   end
   module Plugins

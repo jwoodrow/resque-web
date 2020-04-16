@@ -49,6 +49,16 @@ RAILS_RESQUE_REDIS_PASSWORD=secure_pass
 
 For info on configuring Resque itself (and accepted values of `Resque.redis`) see [the Configuration section of the Resque README](https://github.com/resque/resque#configuration).
 
+If you are using Sprockets 4 you will need to add the following to your manifest.js file
+```javascipt
+//= link resque_web/application.js
+//= link resque_web/application.css
+//= link resque_web/idle.png
+//= link resque_web/lifebuoy.png
+//= link resque_web/poll.png
+//= link resque_web/rails.png
+//= link resque_web/working.png
+```
 
 ## Security
 

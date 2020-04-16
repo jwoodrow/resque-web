@@ -38,7 +38,7 @@ module ResqueWeb
 
       it "deletes queues" do
         visit(:destroy, {id: queue_name}, method: :delete)
-        Resque.queues.include?(queue_name).wont_equal true
+        _(Resque.queues.include?(queue_name)).wont_equal true
       end
     end
 
