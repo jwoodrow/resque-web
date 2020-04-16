@@ -1,4 +1,4 @@
-require 'twitter-bootstrap-rails'
+require 'bootstrap-sass'
 require 'font-awesome-sass'
 require 'jquery-rails'
 
