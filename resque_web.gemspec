@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,lib}/**/*", "Rakefile", "README.md"]
 
   s.add_dependency "resque"
-  s.add_dependency 'twitter-bootstrap-rails'
+  s.add_dependency 'bootstrap-sass'
   s.add_dependency 'font-awesome-sass'
   s.add_dependency 'jquery-rails'
   s.add_dependency 'sass-rails'
