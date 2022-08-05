@@ -124,4 +124,4 @@ And then you can use following command for testing lib with latest rails version
 appraisal rails50 rake test
 ```
 
-If you want to run tests for all rails version like Travis do check out this library: (WWTD)[https://github.com/grosser/wwtd].
+If you want to run tests for all rails version like Travis do check out this library: [WWTD](https://github.com/grosser/wwtd).
