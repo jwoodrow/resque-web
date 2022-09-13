@@ -10,3 +10,4 @@ gem 'minitest-spec-rails'
 gem 'coveralls', require: false
 gem 'redcard'
 gem 'mocha', require: false
+gem 'rails-controller-testing'
